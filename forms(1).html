@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .header1{
+            text-align: center;
+        }
+        textarea{
+            vertical-align: top;
+        }
+        #button1{
+            width: 100px;
+        }
+        #button2{
+            width: 100px;
+        }
+        .container{
+            border: 2px solid ;
+            padding: 5px;
+            margin: 10px auto;
+            width: 70%;
+            background-color: #ccc;
+        }
+    </style>
+    <body>
+        <div class="header1"><h2>Student Registration Form</h2></div>
+        <div class="container">
+        <table  align="center">
+            <tr>
+                <td>Student id: </td>
+                <td colspan="3"><input type="number" size="10"></td>
+                <td>School Year </td>
+                    <td><select>
+                    <option>2013-2014</option>
+                    <option>2014-2015</option>
+                    <option>2015-2016</option>
+                    <option>2016-2017</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text"></td>
+                <td >Middle Name :</td>
+                <td><input type="text"></td>
+                <td>Last Name :</td>
+                <td><input type="text"></td>
+
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea  cols="20" rows="4"></textarea></td>
+                <td>Date of Birth :</td>
+                <td>
+                    <input type="date">
+                </td>
+                <td>Place of Birth :</td>
+                <td><textarea  cols="20" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>Age :</td>
+                <td><input type="text"></td>
+                <td>Gender :</td>
+                <td><input type="radio" name="1">Male <input type="radio" name="1">Female</td>
+                <td>Status :</td>
+                <td><select>
+                    <option>Single</option>
+                    <option>Married</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Year :</td>
+                <td><select>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                    <option>4th</option>
+                </select></td>
+                <td>Guardan</td>
+                <td><input type="text"></td>
+                <td>Relation :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td colspan="3"><textarea  cols="20" rows="4"></textarea></td>
+                <td>
+                    Contact :
+                </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="4"><input id="button1" type="button" value="|&lt">
+                    <input id="button1" type="button" value="&lt&lt">
+                    <input id="button1" type="button" value="&gt&gt">
+                    <input id="button1" type="button" value="|&gt">
+                    0 of 0
+                </td>
+                <td colspan="4">
+                    <input id="button2" type="button" value="New">
+                    <input id="button2" type="button" value="Save">
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+    </body>
+</html>
